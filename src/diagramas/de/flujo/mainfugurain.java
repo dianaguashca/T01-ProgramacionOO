@@ -7,6 +7,7 @@ public class mainfugurain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Voy a revisar el trabajo
+		//Excelente trabajo
 		 System.out.print("Ingrese el numero de filas: ");
 		 Scanner lector=new Scanner(System.in);
 		 int N = lector.nextInt();
