@@ -12,14 +12,10 @@ public class Tgrupo1 {
 		 int diaA , diaN, dia = 0;
 		 int edad = 0;
 		 int dias_mes_actual = 0;
-		 System.out.println("\n<Calculadora de Edad>");
+		 System.out.println("\tCalculadora de Edad>>");
 		 System.out.println();
-		 System.out.print("Año Actual:");
-		 AñoA = lector.nextInt();
-		 System.out.print("Mes Actual:");
-		 MesA = lector.nextInt();
-		 System.out.print("Dia Actual:");
-		 diaA = lector.nextInt();
+		 System.out.print("Año Actual:");AñoA = lector.nextInt();System.out.print("Mes Actual:");MesA = lector.nextInt();
+		 System.out.print("Dia Actual:");diaA = lector.nextInt();
 
 		 System.out.printf("fecha actual: %d/%d/%d ", AñoA, MesA, diaA);
 		 System.out.println();
@@ -70,7 +66,7 @@ public class Tgrupo1 {
 		 }
 
 		 mes=MesN-MesA;
- 
+
 		 if(MesN>MesA) { //mes
 		 if(diaN>diaA) {
 		 mes=11-mes;
@@ -85,6 +81,11 @@ public class Tgrupo1 {
 		 }
 		 }else if (MesN==MesA) {
 		 mes=0;
+		 if(diaN>diaA) {
+		 mes=11-mes;
+		 }else if(diaA>diaN){
+		 mes=mes;
+		 }
 
 		 }
 
@@ -96,8 +97,7 @@ public class Tgrupo1 {
 
 		 }else if(diaN<=diaA) {
 		 dia=(diaA-diaN);
-		 }if(diaN==diaA) {
-		 dia=0;
+
 		 }
 		 else if (MesN != 2 && MesA != 2) {
 		 if(diaN<=31 || diaA<=31) {
