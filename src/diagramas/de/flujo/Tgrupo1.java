@@ -14,8 +14,12 @@ public class Tgrupo1 {
 		 int dias_mes_actual = 0;
 		 System.out.println("\tCalculadora de Edad>>");
 		 System.out.println();
-		 System.out.print("Año Actual:");AñoA = lector.nextInt();System.out.print("Mes Actual:");MesA = lector.nextInt();
-		 System.out.print("Dia Actual:");diaA = lector.nextInt();
+		 System.out.print("Año Actual:");
+		 AñoA = lector.nextInt();
+		 System.out.print("Mes Actual:");
+		 MesA = lector.nextInt();
+		 System.out.print("Dia Actual:");
+		 diaA = lector.nextInt();
 
 		 System.out.printf("fecha actual: %d/%d/%d ", AñoA, MesA, diaA);
 		 System.out.println();
@@ -45,14 +49,14 @@ public class Tgrupo1 {
 		 if (diaN > diaA) {
 		 edad = edad - 1;
 		 } else {
-		 edad = edad;
+		 edad = edad;    
 		 }
 		 }
 
 		 int dias_mes_nacimiento=0;
 
 		 int diaMA=(MesA-1); //Calculo mes Anterior
-
+      
 		 if ((diaMA == 1 || diaMA == 3 || diaMA == 5 || diaMA == 7 || diaMA == 8 || MesN == 10 || diaMA == 0)){
 		 dias_mes_nacimiento = 31;
 		 }else if ((diaMA == 4 || diaMA == 6 || diaMA == 9 || diaMA == 11)) { //los meses que tiene 31 dias
@@ -68,27 +72,27 @@ public class Tgrupo1 {
 		 mes=MesN-MesA;
 
 		 if(MesN>MesA) { //mes
-		 if(diaN>diaA) {
-		 mes=11-mes;
+		 if(diaN>diaA) {  //aun no cumplo el mes 
+		 mes=11-mes; // mesA-mesN+12-1=11-mes 
 		 }else if(diaA>diaN){
-		 mes=12-mes;
+		 mes=12-mes; // cumpliria solo esta formula mesA-mesN=12
 		 }
 		 }else if(MesA>MesN){
 		 if(diaN>diaA) {
-		 mes=(MesA-MesN)-1;
+		 mes=(MesA-MesN)-1;//solo ocuparia en -1 , 
 		 }else if(diaA>diaN){
-		 mes=MesA-MesN;;
+		 mes=MesA-MesN;
 		 }
 		 }else if (MesN==MesA) {
 		 mes=0;
 		 if(diaN>diaA) {
-		 mes=11-mes;
+		 mes=11-mes;//mesA-mesN+12-1=11-mes
 		 }else if(diaA>diaN){
 		 mes=mes;
 		 }
 
 		 }
-
+       
 		 if((MesN == 2 || MesA == 2) && (MesN != 2 ||MesA != 2)) { //Dias
 
 		 if(diaN>diaA) {
@@ -96,7 +100,7 @@ public class Tgrupo1 {
 		 }
 
 		 }else if(diaN<=diaA) {
-		 dia=(diaA-diaN);
+		 dia=(diaA-diaN);//aki se hace solo una resta 
 
 		 }
 		 else if (MesN != 2 && MesA != 2) {
