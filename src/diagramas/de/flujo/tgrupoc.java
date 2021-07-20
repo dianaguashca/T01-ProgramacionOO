@@ -89,7 +89,7 @@ public class tgrupoc {
 		 if(diaN>diaA) {
 		 mes=11-mes;//mesA-mesN+12-1=11-mes
 		 }else if(diaA>diaN){
-		 mes=mes;
+		 mes=mes;//hh
 		 }
 
 		 }
