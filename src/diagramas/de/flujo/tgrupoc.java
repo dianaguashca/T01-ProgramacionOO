@@ -76,6 +76,7 @@ public class tgrupoc {
 		 mes=11-mes; // mesA-mesN+12-1=11-mes 
 		 }else if(diaA>diaN){
 		 mes=12-mes; // cumpliria solo esta formula mesA-mesN=12
+		 
 		 }
 		 }else if(MesA>MesN){
 		 if(diaN>diaA) { 
