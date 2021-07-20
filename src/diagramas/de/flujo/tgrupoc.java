@@ -11,7 +11,7 @@ public class tgrupoc {
 		 int MesA, MesN, mes = 0;
 		 int diaA , diaN, dia = 0;
 		 int edad = 0;
-		 
+		 //correccion
 		 int dias_mes_actual = 0;
 		 System.out.println("\tCalculadora de Edad>>");
 		 System.out.println();
