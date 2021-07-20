@@ -82,6 +82,7 @@ public class Tgrupo1 {
 		 mes=(MesA-MesN)-1;//solo ocuparia en -1 , 
 		 }else if(diaA>diaN){
 		 mes=MesA-MesN;
+		 dia=diaA-diaN;
 		 }
 		 }else if (MesN==MesA) {
 		 mes=0;

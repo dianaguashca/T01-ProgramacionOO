@@ -22,7 +22,6 @@ public class mainfugurain {
 			 System.out.println();//salto de linea 
 			 
 		 }
-	
 
 	}
 
