@@ -9,7 +9,7 @@ public class CorreccionPrueba1 {
 		 System.out.print("INGRESE UN NUMERO POSITIVO: ");
 		 Scanner lector=new Scanner(System.in);
 		 int N = lector.nextInt(); 
-		 //hola
+		 //hola 
 	}
 
 }
