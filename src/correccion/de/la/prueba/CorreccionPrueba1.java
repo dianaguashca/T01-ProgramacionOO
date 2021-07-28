@@ -8,7 +8,7 @@ public class CorreccionPrueba1 {
 		// TODO Auto-generated method stub
 		 System.out.print("INGRESE UN NUMERO POSITIVO: ");
 		 Scanner lector=new Scanner(System.in);
-		 int N = lector.nextInt();
+		 int N = lector.nextInt(); 
 	}
 
 }
