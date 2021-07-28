@@ -1,0 +1,10 @@
+package correccion.de.la.prueba;
+
+public class CorreccionPrueba2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+	}
+
+}
