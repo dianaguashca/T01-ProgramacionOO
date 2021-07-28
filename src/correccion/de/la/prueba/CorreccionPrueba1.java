@@ -9,7 +9,7 @@ public class CorreccionPrueba1 {
 		 Scanner lector=new Scanner(System.in);
 		 int N;
 		 int S=0;
-		//correccion
+		//correccion 
 		 int C=0;
 		float P=0f;
 		
