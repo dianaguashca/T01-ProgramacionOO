@@ -9,7 +9,7 @@ public class CorreccionPrueba1 {
 		 Scanner lector=new Scanner(System.in);
 		 int N;
 		 int S=0;
-		 int i
+		
 		 int C=0;
 		float P=0f;
 		
@@ -21,7 +21,7 @@ public class CorreccionPrueba1 {
 	   			
 	   		}else {
 	   		   int SUM=S+N1;
-	   		   int PRO=S/r;
+	   		   int PRO=S/i;
 	   		   int CAN=C+1;
 					
 	  
