@@ -1,6 +1,6 @@
 package ejerciciodowhile;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Prueba2DoWhile {
 
