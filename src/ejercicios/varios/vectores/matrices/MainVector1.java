@@ -26,11 +26,6 @@ public class MainVector1 {
 		System.out.println("El  valor de la posicion:"+i);
 		System.out.println(X[i]);
 }
-	
-
-	
-	
-	
 	}
 
 }
