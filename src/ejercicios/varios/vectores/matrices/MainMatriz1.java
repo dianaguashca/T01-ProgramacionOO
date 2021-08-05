@@ -28,10 +28,11 @@ public class MainMatriz1 {
 				 
 			}
 		}
+		System.out.println(" Iniciamos a imprimir la Matriz :");
+		
 		for(int fila=0; fila<Longuitudfila; fila++) {
 			for(int columna=0; columna<Longuitudcolumna;columna++) {
-				
-	System.out.println(" El valor fila:"+fila+" y  la columna:"+columna+" es:"+A[fila][columna]);	
-			
+				System.out.println( A[fila][columna]+"");
 	}
+			System.out.println();
 	}}}
