@@ -2,7 +2,7 @@ package deber.pareja.metodos;
 //esta es mi clase no Main Nathan Velez
 public class Autos {
 	String color;
-	String marca;
+	String marca; 
 	String modelo;
 	double precio;
 	public void comprar(String autosDisponibles, int Ncedula) {
