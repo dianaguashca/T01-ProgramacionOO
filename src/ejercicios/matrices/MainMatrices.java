@@ -23,6 +23,9 @@ public class MainMatrices {
      miMatriz1[2][2]=2;
      
      
+     
+     
+     
 	}
 
 }

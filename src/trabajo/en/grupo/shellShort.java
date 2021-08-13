@@ -44,8 +44,7 @@ public class shellShort {
 					    		  //aki ordeno mi vector
 					    		    
 					    		   
-					    		   System.out.println("el vector  despues de ordenar "+ Arrays.toString(a));
-					    		
+					    		   System.out.println("el vector  despues de ordenar "+ Arrays.toString(a));		
 					}
 					
 				}

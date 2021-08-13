@@ -18,8 +18,8 @@ public class MainVector2 {
 		for(int i=0;i<N;i++) {
 			
 			System.out.println("Ingrese valor de la posicion:"+i);
-			N=lector.nextInt();
-			 B[i]= N;
+			 int N2=lector.nextInt();
+			 B[i]= N2;
 			}
 			
 			//rrecoriendo el vector lleno 
