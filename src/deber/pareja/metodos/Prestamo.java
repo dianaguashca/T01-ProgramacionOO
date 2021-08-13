@@ -11,7 +11,7 @@ public class Prestamo {
 		Primerprestamo.autores="Agatha Christie (736)";
 		Primerprestamo.lectores=" Sofia Cardenas";
 		Primerprestamo.Ncedula=345678;
-		Primerprestamo.codigoLibro=1234;
+		Primerprestamo.codigoLibro=1234; 
 	    System.out.println("Nombre del libro:"+ Primerprestamo.libros  );
 	    System.out.println("El autor del libro:  "+Primerprestamo.autores  );
 	    System.out.println("Nombre del que realiza el Prestamo:  "+Primerprestamo.lectores  );
