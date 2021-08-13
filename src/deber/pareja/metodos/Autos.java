@@ -2,7 +2,7 @@ package deber.pareja.metodos;
 //subir
 //esta es mi clase no Main Nathan Velez
 public class Autos {
-	String color;
+	String color; 
 	String marca;   
 	String modelo; 
 	double precio; 
