@@ -15,7 +15,7 @@ public class Biblioteca {
 		
 		} 
  public void prestamo2(String librosAl, int Ncedula) {
-	 System.out.println();
+	 System.out.println();  
 	 System.out.println(".....................................");
 		System.out.println(" Segundo Prestamo de la Biblioteca ");
 		System.out.println(librosAl );
