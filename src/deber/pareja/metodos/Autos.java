@@ -6,7 +6,7 @@ public class Autos {
 	String marca;   
 	String modelo; 
 	double precio; 
-	//main
+	//main 
 	public void comprar(String autosDisponibles, int Ncedula) {
 		System.out.println(" BIENVEDIDO ");
 		System.out.println("OFRECEMOS: ");
