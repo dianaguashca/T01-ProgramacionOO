@@ -3,7 +3,7 @@ package deber.pareja.metodos;
 public class Biblioteca {
  String libros;
  String autores;
- String lectores;
+ String lectores;  
  int Ncedula;
  int codigoLibro;
  public void prestamo1(String librosAl, int Ncedula) {
