@@ -5,7 +5,8 @@ public class Autos {
 	String color;
 	String marca;   
 	String modelo; 
-	double precio;
+	double precio; 
+	//main
 	public void comprar(String autosDisponibles, int Ncedula) {
 		System.out.println(" BIENVEDIDO ");
 		System.out.println("OFRECEMOS: ");
