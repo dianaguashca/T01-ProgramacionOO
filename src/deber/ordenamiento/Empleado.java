@@ -88,7 +88,7 @@ public class Empleado {
  		salarioEmpleado[7]=empleado8;
  		salarioEmpleado[8]=empleado9;
  		salarioEmpleado[9]=empleado10;
- 		
+ 		   
  		System.out.println("Antes de ordenar");
  		System.out.println();
 		System.out.println(Arrays.toString(salarioEmpleado));
