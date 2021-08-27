@@ -109,6 +109,7 @@ public class Peon {
 		posicionTablero[6][7]=peonBlanco8;
 		
 		
+		
 	}
 
 }

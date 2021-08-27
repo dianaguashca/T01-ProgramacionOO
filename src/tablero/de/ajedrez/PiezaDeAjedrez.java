@@ -1,5 +1,7 @@
 package tablero.de.ajedrez;
 
+import java.awt.GridLayout;
+
 public class PiezaDeAjedrez  {
 	
 	public String color;
@@ -32,5 +34,13 @@ public class PiezaDeAjedrez  {
 		return "PiezaDeAjedrez [color=" + color 
 				+ ", valor=" + valor + ", movimiento="
 				+ movimiento + "]";
+	}
+	public void add(PiezaDeAjedrez piezaDeAjedrez) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setLayout(GridLayout gridLayout) {
+		// TODO Auto-generated method stub
+		
 	} 
 }
