@@ -1,7 +1,7 @@
 package tablero.de.ajedrez;
 
 public class Reina  extends PiezaDeAjedrez {
-
+ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
